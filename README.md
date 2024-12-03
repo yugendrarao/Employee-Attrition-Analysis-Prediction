@@ -61,3 +61,61 @@ Employees who had less than 150 monthly hours left the company more
 Employees who worked between 170 to 230 hours stayed
 Employees who worked more than 250 hours left the company more
 Overall, analysis showed that attrition rate is 23.8% and job satisfaction is the highest contributing factor/feature
+
+--Process Workflow--
+
+#### Importing the libraries
+
+#### Understanding the data
+
+## Exploratory Data Analysis (EDA)
+
+### Feature Correlation
+
+### Distribution of Employee Satisfaction, Evaluation and Project Count
+
+### Evaluating Satisfaction level vs Last Evaluation Score
+
+### Clusters of employees who left
+
+## Number of Projects
+Those who had less than 3 projects left
+About half of people who had between 4 to 5 projects left
+Those who had 6 projects and above left
+###### There is an increase in the rate of leaving with more projects working
+
+## Analysis of those who left by departments
+
+### Distribution of employees who left per department
+
+Sales department had the highest turnover
+Sales, Technical Support and support had the overall highest attrition
+
+### Analysis of the distribution of monthly hours for those who left
+    Employees who had less than 150 monthly hours left the company more
+    Employees who worked between 170 to 230 hours stayed
+    Employees who worked more than 250 hours left the company more
+
+### The Turnover or Attrition rate is 23%
+
+### Train 3 models and compare their perfomances on the data
+
+### Logistic Regression F1 (87%)
+
+### Random Forest F1(99%) Accuracy (96%)
+
+### Gradient Boost Classifier Accuracy (94%) F1 (99%)
+
+### We use a ROC graph to compare the perfomance of the models
+
+### Applying some random noise on the Feature importances
+
+Conclusion
+Employee satisfaction, number of projects done, evaluation and time spent with the company are the most important features that have been shown to affect turnover.The model can predict attrition or who is most likely to leave up to 94% accuracy
+Recommendations
+
+Strategic Recommendations for Retention:
+
+Budget Allocation: Rank employees based on their likelihood of leaving and allocate retention resources accordingly.
+Focus on High-Impact Retention: Address dissatisfaction for employees critical to the organization's success.
+Continuous Monitoring: Regularly evaluate employee satisfaction and workload to prevent attrition.
